@@ -31,7 +31,7 @@ function toggleClasses() {
     dark();
 };
 
-if (JSON.parse(localStorage.darkTheme)) {
+if (localStorage.darkTheme === 'false') {
     dark();
 };
 
