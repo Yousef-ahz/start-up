@@ -1,0 +1,175 @@
+/* Style Dark Theme */
+
+/* Navbar */
+body.dark {
+  background-color: #0B0D39;
+}
+
+.dark .navbar .container {
+  background-color: #1A1C46;
+}
+
+.dark .navbar .container .navbar-brand .logo-text {
+  font-size: 24px;
+  color: #FFF;
+}
+
+body.dark .navbar .container .navbar-nav li a {
+  color: #FFF;
+}
+
+body.dark .navbar .container .navbar-nav li a.active {
+  color: #FFF;
+}
+
+body.dark .navbar .container .navbar-nav li a:hover {
+  color: #FFF;
+}
+
+/* Home */
+
+body.dark .navbar .container .btns button.download {
+  color: #FFF;
+}
+
+/* Toggle Theme */
+@media (max-width: 992px) {
+  .dark .navbar .toggle-theme {
+    color: #FFF;
+    box-shadow: 0 0 4px #ffffffa1;
+  }
+}
+
+.dark .navbar .container .list svg{
+  color: #FFF;
+}
+
+.dark :is(.left-section-title h1, .section-title h1, .left-section-title h1 + p) {
+  color: #FFF
+};
+
+.dark .home .home-buttons button.more {
+  border: 1px solid #FFF;
+  color: #FFF;
+}
+
+.dark .home .home-buttons button.more::after {
+  background-color: #0B0D39;
+}
+
+/* Features */
+.dark .features .container {
+  background-color: #1A1C46;
+}
+
+.dark .features .features-box :is(.box-title, p) {
+  color: #FFF;
+}
+
+/* Design */
+.dark .design .container .discus button {
+  background-color: #356DFF;
+}
+
+/* Testimonials */
+.dark .testimonials .container {
+  background-color: #1A1C46;
+}
+
+.dark .testimonials .feedbacks .box {
+  background-color: #2B2D5B;
+  box-shadow: none;
+}
+
+.dark .testimonials .feedbacks .box :is(h1, p, span) {
+  color: #FFF !important;
+};
+
+.dark .testimonials .controls svg {
+  color: #FFF;
+}
+
+.dark .testimonials .controls > .left {
+  background-color: #356DFF;
+  color: #FFF;
+}
+
+/* Blog */
+.dark .blog .card {
+  background-color: #2B2D5B;
+}
+
+.dark .blog .card :is(h5, p) {
+  color: #FFF;
+}
+
+.blog .main-button {
+  background-color: transparent;
+  border: 1px solid #FFF;
+  color: #FFF;
+}
+
+.blog .main-button::after {
+  background-color: #0B0D38;
+}
+
+.blog .main-button:hover::after,
+.blog .main-button:hover {
+  background-color: #356DFF;
+  color: #FFF;
+  border-color: transparent;
+}
+
+.blog .main-button:hover::after {
+  background-color: transparent;
+}
+
+/* Fire */
+.dark .fire .container {
+  padding-top: 200px;
+  background-color: #1A1C46;
+}
+
+/* Scrollbar */
+.dark::-webkit-scrollbar-track {
+  background-color: #afb9c5;
+}
+
+.dark::-webkit-scrollbar-thumb {
+  background-color: #2d3d42bb;
+}
+
+.dark .fire .container .main-button {
+  background-color: #356DFF;
+}
+
+/* Footer */
+.dark footer :is(h2, span, .footer-list li) {
+  color: #FFF !important;
+};
+
+.dark footer .container .social-links li svg {
+  color: #FFF;
+}
+
+.dark footer .container .social-links li svg {
+  color: #FFF;
+}
+
+.dark footer .section-title span {
+  color: #FF9100 !important;
+}
+
+/* Scroll Up */
+.dark #scroll-up {
+  background-color: transparent;
+  border: 2px solid #777;
+}
+
+.dark #scroll-up:hover {
+  border-color: #FFF;
+}
+
+.dark .home .scroll-down svg {
+  color: #FFF;
+}
